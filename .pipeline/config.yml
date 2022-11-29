@@ -31,9 +31,9 @@ steps:
     projectKey: ""
     sonarTokenCredentialsId: ""
   transportRequestUploadCTS:
-    endpoint: "http://gcpclm988017.wdf.sap.corp:50000"
+    endpoint: "http://gcpclm988017.wdf.sap.corp:50000/"
     uploadCredentialsId: "abapja2"
     abapPackage: "ZSGPACK"
     applicationName: "ZMKSTDFIORIAPP1"
-    applicationDescription: "My ABAP Fiori App"
+    applicationDescription: "My App"
     transportRequestId: "JA1K900037"
