@@ -35,5 +35,5 @@ steps:
     uploadCredentialsId: "abapja2"
     abapPackage: "ZSGPACK"
     applicationName: "ZMKSTDFIORIAPP1"
-    applicationDescription: "MK Fiori App 1"
+    applicationDescription: "My ABAP Fiori App"
     transportRequestId: "JA1K900037"
