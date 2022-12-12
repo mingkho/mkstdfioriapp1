@@ -5,15 +5,15 @@ service:
   buildToolVersion: "N14"
   cloudConnectors:
     transportRequestUploadCTS:
-      credentialId: "staging-cc"
+      credentialId: "mk-cloud-connector"
 stages:
   Build:
-    npmExecuteLint: false
+    npmExecuteLint: true
   Additional Unit Tests:
     npmExecuteScripts: false
     karmaExecuteTests: false
   Malware Scan:
-    malwareExecuteScan: false
+    malwareExecuteScan: true
   Compliance:
     sonarExecuteScan: false
   Release:
@@ -32,7 +32,7 @@ steps:
     sonarTokenCredentialsId: ""
   transportRequestUploadCTS:
     endpoint: "http://gcpclm988017.wdf.sap.corp:50000/"
-    uploadCredentialsId: "abapja2"
+    uploadCredentialsId: "ja2"
     abapPackage: "ZSGPACK"
     applicationName: "ZMKSTDFIORIAPP1"
     applicationDescription: "My App"
