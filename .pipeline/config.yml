@@ -5,15 +5,15 @@ service:
   buildToolVersion: "N14"
   cloudConnectors:
     transportRequestUploadCTS:
-      credentialId: "staging-cc"
+      credentialId: "integration-cc"
 stages:
   Build:
-    npmExecuteLint: false
+    npmExecuteLint: true
   Additional Unit Tests:
     npmExecuteScripts: false
     karmaExecuteTests: false
   Malware Scan:
-    malwareExecuteScan: false
+    malwareExecuteScan: true
   Compliance:
     sonarExecuteScan: false
   Release:
