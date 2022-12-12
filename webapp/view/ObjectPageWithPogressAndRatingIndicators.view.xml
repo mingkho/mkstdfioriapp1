@@ -11,7 +11,7 @@
 		<headerTitle>
 			<ObjectPageDynamicHeaderTitle>
 				<expandedHeading>
-					<m:Title text="Product Detail" wrapping="true" />
+					<m:Title text="Product Page" wrapping="true" />
 				</expandedHeading>
 
 				<snappedHeading>
