@@ -15,7 +15,7 @@ stages:
   Malware Scan:
     malwareExecuteScan: true
   Compliance:
-    sonarExecuteScan: true
+    sonarExecuteScan: false
   Release:
     transportRequestUploadCTS: true
 steps:
@@ -25,15 +25,15 @@ steps:
     runScripts:
     - "test"
   sonarExecuteScan:
-    mode: "SonarQube"
-    serverUrl: "https://sonar.tools.sap/"
+    mode: ""
+    serverUrl: ""
     organization: ""
-    projectKey: "MKStdFioriApp1"
-    sonarTokenCredentialsId: "sonar-mkstdfioriapp1"
+    projectKey: ""
+    sonarTokenCredentialsId: ""
   transportRequestUploadCTS:
     endpoint: "http://gcpclm988017.wdf.sap.corp:50000/"
-    uploadCredentialsId: "abapja2"
+    uploadCredentialsId: "abap-upload-cred"
     abapPackage: "ZSGPACK"
     applicationName: "ZMKSTDFIORIAPP1"
-    applicationDescription: "My Fiori App 1"
+    applicationDescription: "My Fiori App"
     transportRequestId: "JA1K900037"
