@@ -2,7 +2,7 @@
 general:
   buildTool: "npm"
 service:
-  buildToolVersion: "N16"
+  buildToolVersion: "N14"
   cloudConnectors:
     transportRequestUploadCTS:
       credentialId: "integration-cc"
@@ -31,9 +31,9 @@ steps:
     projectKey: ""
     sonarTokenCredentialsId: ""
   transportRequestUploadCTS:
-    endpoint: "http://gcpclm988017.wdf.sap.corp:50000/"
+    endpoint: "https://github.com/mingkho/mkstdfioriapp1.git"
     uploadCredentialsId: "abap-credential"
     abapPackage: "ZSGPACK"
     applicationName: "ZMKSTDFIORIAPP1"
-    applicationDescription: "MKSRDFIORIAPP1"
+    applicationDescription: "MKSTDFIORIAPP1"
     transportRequestId: "JA1K900037"
