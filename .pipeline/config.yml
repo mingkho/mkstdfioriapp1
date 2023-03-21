@@ -32,7 +32,7 @@ steps:
     sonarTokenCredentialsId: ""
   transportRequestUploadCTS:
     endpoint: "https://github.com/mingkho/mkstdfioriapp1.git"
-    uploadCredentialsId: "abap-credential"
+    uploadCredentialsId: "abap-cred"
     abapPackage: "ZSGPACK"
     applicationName: "ZMKSTDFIORIAPP1"
     applicationDescription: "MKSTDFIORIAPP1"
