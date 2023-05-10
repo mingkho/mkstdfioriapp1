@@ -11,7 +11,7 @@
 		<headerTitle>
 			<ObjectPageDynamicHeaderTitle>
 				<expandedHeading>
-					<m:Title text="SAP Fiori Roundtable" wrapping="true" />
+					<m:Title text="SAP Fiori Roundtable Demo" wrapping="true" />
 				</expandedHeading>
 
 				<snappedHeading>
