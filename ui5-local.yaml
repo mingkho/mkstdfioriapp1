@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+# Newer 1
 
 specVersion: "2.5"
 metadata:
